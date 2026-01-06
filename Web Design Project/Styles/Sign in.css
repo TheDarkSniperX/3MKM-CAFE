@@ -28,6 +28,19 @@ input {
   padding: 13px;
   margin: 20px;
 }
+input:invalid{
+  background-image: url(../icons/circle-xmark-regular-full.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(98%);
+  border: 1px solid red;
+}
+input:valid{
+  background-image: url(../icons/circle-check-regular-full.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(98%);
+}
 .rad {
   width: 10%;
   margin: 0px;

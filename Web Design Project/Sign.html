@@ -21,45 +21,44 @@
               placeholder="Enter your name"
               name="name"
               id="u"
+              required
             /><br /><br />
             <label for="p">Password</label><br />
             <input
               type="password"
-              placeholder="enter the password"
+              placeholder="enter the password must be 8 charcters"
               name="pass"
               id="p"
-            /><br /><br />
+              required
+              minlength="8"
+            />
             <label for="e">Enter your email</label><br />
             <input
               type="email"
               name="email"
               id="e"
               placeholder="Enter your email"
-            /><br /><br />
-            <label for="n">Phone number</label><br />
-            <input
-              type="number"
-              name="number"
-              id="n"
-              placeholder="Enter your number"
+              required
             /><br /><br />
             <input
               type="radio"
-              name="gender"
-              value="Male"
+              name="account"
+              value="sign in"
               id="m"
               class="rad"
-            /><label for="m" class="rad">Male</label>
+              required
+            /><label for="m" class="rad">Sign in</label>
             <input
               type="radio"
-              name="gender"
-              value="Female"
+              name="account"
+              value="sign up"
               id="f"
               class="rad"
-            /><label for="f" class="rad">Female</label> <br /><br /><button
+              required
+            /><label for="f" class="rad">Sign up</label> <br /><button
               type="submit"
             >
-              Submit
+              log In
             </button>
           </fieldset>
         </form>
