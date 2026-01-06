@@ -1,0 +1,64 @@
+* {
+  color: #d5cea3;
+  font-style: sans-serif;
+}
+body {
+  background-image: url("/Images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo img {
+  width: 100px;
+  position: fixed;
+  left: 40px;
+  top: 40px;
+}
+form {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  padding: 100px 20px;
+}
+input {
+  width: 90%;
+  background-color: rgb(255, 255, 255, 0);
+  border: 1px solid #d5cea3;
+  padding: 13px;
+  margin: 20px;
+}
+.rad {
+  width: 10%;
+  margin: 0px;
+  padding: 0px;
+}
+legend {
+  text-align: left;
+  color: #d5cea3;
+}
+button {
+  width: 300px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #e5e5cb;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #d5cea3;
+}
+button:active {
+  background-color: #e4d888;
+  width: 290px;
+}
+fieldset {
+  padding: 50px 25px;
+  backdrop-filter: blur(20px);
+}
