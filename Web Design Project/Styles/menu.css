@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #d5cea3;
+}
+body {
+  background-image: url("../Images/background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.father {
+  height: 150px;
+  margin: 19px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.photo {
+  height: 180px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: #d5cea3 solid 3px;
+  border-radius: 30px;
+}
+#p1 {
+  background-image: url(../Images/menu/lavender.jpg);
+}
+#p2 {
+  background-image: url(../Images/menu/flat\ white.jpg);
+}
+#p3 {
+  background-image: url(../Images/menu/cold\ brew.jpeg);
+}
+#p4 {
+  background-image: url(../Images/menu/matcha\ latte.jpg);
+}
+#p5 {
+  background-image: url(../Images/menu/spiced\ chai\ latte.jpg);
+}
+#p6 {
+  background-image: url(../Images/menu/hibiscus\ berry\ iced\ tea.jpg);
+}
+#p7 {
+  background-image: url(../Images/menu/Almond\ Croissants.webp);
+}
+#p8 {
+  background-image: url(../Images/menu/Pain\ Au\ Chocolat.jpg);
+}
+#p9 {
+  background-image: url(../Images/menu/lemon\ poppyseed\ muffins.jpg);
+}
+#p10 {
+  background-image: url(../Images/menu/smashed\ avocado\ toast.jpg);
+}
+#p11 {
+  background-image: url(../Images/menu/caprese-panini-plated.jpg);
+}
+#p12 {
+  background-image: url(../Images/menu/Smoked-Salmon-Bagel.jpg);
+}
+.price{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
