@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 main {
-  background-image: url(/Images/background1.jpg);
+  background-image: url(../Images/background1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,7 +42,7 @@ main {
 }
 
 #i1 {
-  background-image: url(/Images/cafe.jpg);
+  background-image: url('../Images/cafe.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@ main {
   transition: 0.5s;
 }
 #i2 {
-  background-image: url(/Images/cafe2.jpg);
+  background-image: url('../Images/cafe2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@ main {
   transition: 0.5s;
 }
 #i3 {
-  background-image: url(/Images/cafe3.jpg);
+  background-image: url('../Images/cafe3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,7 +66,7 @@ main {
   transition: 0.5s;
 }
 #i4 {
-  background-image: url(/Images/cafe4.jpg);
+  background-image: url('../Images/cafe4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
