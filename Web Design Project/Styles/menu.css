@@ -9,23 +9,25 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+}
+.logo h1{
+    display: inline-block;
+    margin: auto;
+}
+.logo img {
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.logo img {
-  width: 100px;
-  position: fixed;
-  left: 40px;
-  top: 40px;
-}
 h1{
     margin-top: 50px;
 }
 .father {
-  height: 150px;
+  height: 300px;
   margin: 19px 10px;
   display: flex;
   flex-direction: column;
@@ -38,7 +40,7 @@ h1{
   font-family: sans-serif;
 }
 .photo {
-  height: 180px;
+  height: 280px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
