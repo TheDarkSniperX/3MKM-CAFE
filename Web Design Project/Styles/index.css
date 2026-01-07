@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
 main {
   background-image: url(../Images/background1.jpg);
   background-size: cover;
@@ -42,7 +49,7 @@ main {
 }
 
 #i1 {
-  background-image: url('../Images/cafe.jpg');
+  background-image: url("../Images/cafe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,7 +57,7 @@ main {
   transition: 0.5s;
 }
 #i2 {
-  background-image: url('../Images/cafe2.jpg');
+  background-image: url("../Images/cafe2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,7 +65,7 @@ main {
   transition: 0.5s;
 }
 #i3 {
-  background-image: url('../Images/cafe3.jpg');
+  background-image: url("../Images/cafe3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,7 +73,7 @@ main {
   transition: 0.5s;
 }
 #i4 {
-  background-image: url('../Images/cafe4.jpg');
+  background-image: url("../Images/cafe4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -151,4 +158,40 @@ main {
 .text button:active {
   background-color: #e4d888;
   width: 290px;
+}
+.about {
+  background-image: url(../Images/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about p,
+.about h3,
+.about h2 {
+  margin-top: 50px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-size: 26px;
+  width: 80%;
+  color: #d5cea3;
+  text-align: justify;
+}
+.about h2 {
+  border: #fff solid 3px;
+  text-align: center;
+  padding: 10px;
+}
+.about p {
+  color: #fff;
+}
+.logo1 img {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 100px;
+}
+.last-p{
+  margin-bottom: 50px;
 }
