@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles/menu.css" />
     <title>Menu</title>
-  
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+  </head>
   <body>
     <div class="logo">
       <a href="index.html"><img src="icons/mug-saucer-solid-full.png" /></a>
@@ -17,49 +13,7 @@
     </div>
     <div class="wowflex">
       <div><h1>TOP PICKS</h1></div>
-      <div class="wow">
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/capresepaniniplated.jpg" alt="Caprese Panini
-" title="Caprese Panini
-" id="wows0_0"/></li>
-		<li><img src="data0/images/cold_brew.jpg" alt="Cold Brew" title="Cold Brew" id="wows0_1"/></li>
-		<li><img src="data0/images/flat_white.jpg" alt="Classic Flat White
-" title="Classic Flat White
-" id="wows0_2"/></li>
-		<li><img src="data0/images/pain_au_chocolat.jpg" alt="Pain au Chocolat
-" title="Pain au Chocolat
-" id="wows0_3"/></li>
-		<li><a href="http://wowslider.net"><img src="data0/images/smokedsalmonbagel.jpg" alt="html slider" title="Smoked Salmon Bagel
-" id="wows0_4"/></a></li>
-		<li><img src="data0/images/spiced_chai_latte.jpg" alt="Spiced Chai Elixir
-" title="Spiced Chai Elixir
-" id="wows0_5"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Caprese Panini
-"><span><img src="data0/tooltips/capresepaniniplated.jpg" alt="Caprese Panini
-"/>1</span></a>
-		<a href="#" title="Cold Brew"><span><img src="data0/tooltips/cold_brew.jpg" alt="Cold Brew"/>2</span></a>
-		<a href="#" title="Classic Flat White
-"><span><img src="data0/tooltips/flat_white.jpg" alt="Classic Flat White
-"/>3</span></a>
-		<a href="#" title="Pain au Chocolat
-"><span><img src="data0/tooltips/pain_au_chocolat.jpg" alt="Pain au Chocolat
-"/>4</span></a>
-		<a href="#" title="Smoked Salmon Bagel
-"><span><img src="data0/tooltips/smokedsalmonbagel.jpg" alt="Smoked Salmon Bagel
-"/>5</span></a>
-		<a href="#" title="Spiced Chai Elixir
-"><span><img src="data0/tooltips/spiced_chai_latte.jpg" alt="Spiced Chai Elixir
-"/>6</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript photo gallery</a> by WOWSlider.com v9.0</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section --></div>
+      <div class="wow"></div>
     </div>
     <main>
       <div class="father">
