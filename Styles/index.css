@@ -247,7 +247,7 @@ main {
   nav {
     display: flex;
   }
-  .head1{
+  .head1,.about h2{
     margin-top: 0px;
   }
 }
