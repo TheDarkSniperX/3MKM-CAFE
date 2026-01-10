@@ -247,4 +247,7 @@ main {
   nav {
     display: flex;
   }
+  .head1{
+    margin-top: 10px;
+  }
 }
