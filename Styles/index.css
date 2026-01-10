@@ -231,6 +231,7 @@ main {
 .logo1 {
   margin-top: 50px;
   margin-left: 50px;
+  display: block;
 }
 .logo1 img {
   width: 100px;
@@ -239,10 +240,11 @@ main {
   margin-bottom: 50px;
 }
 @media (max-width: 800px) {
-  .images {
+  .images,
+  .logo1 {
     display: none;
   }
-  nav{
+  nav {
     display: flex;
   }
 }
