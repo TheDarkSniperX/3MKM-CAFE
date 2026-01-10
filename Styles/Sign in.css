@@ -1,25 +1,26 @@
 * {
+  padding: 0;
+  margin: 0;
   color: #d5cea3;
   font-style: sans-serif;
 }
 body {
-  background-image: url('../Images/background.jpg');
+  background-image: url("../Images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+.logo {
+  margin: 40px;
+}
 .logo img {
   width: 100px;
-  position: fixed;
-  left: 40px;
-  top: 40px;
 }
 form {
   text-align: center;
   width: 550px;
   margin: auto;
-  padding: 100px 20px;
 }
 input {
   width: 90%;
@@ -28,14 +29,14 @@ input {
   padding: 13px;
   margin: 20px;
 }
-input:invalid{
+input:invalid {
   background-image: url(../icons/circle-xmark-regular-full.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: calc(98%);
   border: 1px solid red;
 }
-input:valid{
+input:valid {
   background-image: url(../icons/circle-check-regular-full.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -74,4 +75,24 @@ button:active {
 fieldset {
   padding: 50px 25px;
   backdrop-filter: blur(20px);
+}
+@media (max-width: 550px) {
+  form {
+    width: 60px;
+    margin-left: 0px;
+  }
+  .logo{
+    margin: 20px;
+    margin-bottom: 3px;
+  }
+  input{
+    width: 80%;
+  }
+  fieldset {
+  padding: 20px 40px;
+  margin: 20px;
+}
+button{
+  width: 260px;
+}
 }
