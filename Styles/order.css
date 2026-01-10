@@ -17,8 +17,8 @@ body {
   justify-content: center;
 }
 .logo {
-	margin-bottom: 20px;
-	align-self: center;
+  margin-bottom: 20px;
+  align-self: center;
 }
 .logo img {
   width: 100px;
@@ -30,7 +30,7 @@ form {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-	margin: 0 auto;
+  margin: 0 auto;
   backdrop-filter: blur(5px);
   border: #d5cea3 solid 3px;
   border-radius: 20px;
@@ -75,4 +75,28 @@ button:hover {
 button:active {
   background-color: #e4d888;
   width: 290px;
+}
+@media (max-width: 740px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+  .logo {
+    margin: 10px;
+  }
+	.logo img {
+		width: 70px;
+	}
+  .header,
+  button {
+    grid-column: 1;
+  }
+  button {
+    margin: 0;
+  }
+  h1 {
+		font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
 }
