@@ -32,14 +32,14 @@ input {
 input:invalid {
   background-image: url(../icons/circle-xmark-regular-full.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 30px;
   background-position: calc(98%);
   border: 1px solid red;
 }
 input:valid {
   background-image: url(../icons/circle-check-regular-full.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 30px;
   background-position: calc(98%);
 }
 .rad {
@@ -63,6 +63,7 @@ button {
   color: black;
   font-size: 16px;
   font-weight: 600;
+  box-shadow: 0 0 7px #d5cea3;
 }
 button:hover {
   cursor: pointer;
@@ -81,18 +82,18 @@ fieldset {
     width: 60px;
     margin-left: 0px;
   }
-  .logo{
+  .logo {
     margin: 20px;
     margin-bottom: 3px;
   }
-  input{
+  input {
     width: 80%;
   }
   fieldset {
-  padding: 20px 40px;
-  margin: 20px;
-}
-button{
-  width: 260px;
-}
+    padding: 20px 40px;
+    margin: 20px;
+  }
+  button {
+    width: 260px;
+  }
 }

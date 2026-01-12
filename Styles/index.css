@@ -55,6 +55,7 @@ main {
   width: 50%;
   height: 150px;
   transition: 0.5s;
+  box-shadow: 0 0 7px #d5cea3;
 }
 .image a {
   color: #fff;
@@ -130,12 +131,24 @@ main {
   display: flex;
   justify-content: space-around;
   width: 400px;
-}
-.icons img {
   margin-top: 20px;
-  width: 40px;
+}
+.icons a {
+  text-decoration: none;
+}
+i {
+  font-size: 30px;
+  color: black;
+}
+.i {
+  width: 37px;
+  height: 37px;
   background-color: #d5cea3;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 7px #d5cea3;
 }
 .text button {
   width: 300px;
@@ -146,6 +159,7 @@ main {
   border: none;
   border-radius: 20px;
   transition: 0.3s;
+  box-shadow: 0 0 7px #d5cea3;
 }
 .text button a {
   font-size: 20px;
@@ -219,14 +233,20 @@ main {
 }
 .ico {
   display: flex;
-  width: 400px;
-  margin: 15px 0;
+  width: 150px;
+  margin: 10px;
+  justify-content: space-between;
 }
-.ico img {
-  margin: 20px 0px 0px 30px;
-  width: 40px;
+.ico a {
+  text-decoration: none;
+}
+.ico .i {
+  margin-left: 20px;
+  width: 37px;
+  height: 37px;
   background-color: #d5cea3;
   border-radius: 50%;
+  box-shadow: 0 0 7px #d5cea3;
 }
 .logo1 {
   margin-top: 50px;
@@ -239,6 +259,9 @@ main {
 .last-p {
   margin-bottom: 50px;
 }
+.pl {
+  margin-bottom: 5px;
+}
 @media (max-width: 800px) {
   .images,
   .logo1 {
@@ -247,7 +270,8 @@ main {
   nav {
     display: flex;
   }
-  .head1,.about h2{
+  .head1,
+  .about h2 {
     margin-top: 0px;
   }
 }

@@ -127,6 +127,7 @@ button {
   transition: 0.3s;
   margin: 30px;
   display: flex;
+  box-shadow: 0 0 7px #d5cea3;
 }
 button a {
   text-decoration: none;
@@ -166,6 +167,6 @@ button:active {
     height: 240px;
   }
   main {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
 }

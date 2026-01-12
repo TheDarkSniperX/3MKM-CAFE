@@ -40,12 +40,27 @@ form {
   grid-column: span 2;
   justify-self: center;
 }
-h2 {
-  display: inline-block;
+label {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: pointer;
 }
 input {
-  accent-color: #d5cea3;
-  margin: 0 10px;
+  margin-right: 20px;
+  margin-left: 5px;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: #d5cea3 solid 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input:checked {
+  background-image: url('../icons/check.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .item {
   background-color: black;
@@ -83,9 +98,9 @@ button:active {
   .logo {
     margin: 10px;
   }
-	.logo img {
-		width: 70px;
-	}
+  .logo img {
+    width: 70px;
+  }
   .header,
   button {
     grid-column: 1;
@@ -94,7 +109,7 @@ button:active {
     margin: 0;
   }
   h1 {
-		font-size: 24px;
+    font-size: 24px;
   }
   h2 {
     font-size: 16px;
